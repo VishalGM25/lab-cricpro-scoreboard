@@ -1,16 +1,113 @@
 /* Type your code here */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header,
+section {
+  width: 75%;
+  margin: 0 auto;
+}
+section {
+  position: relative;
+}
+.container {
+  position: relative;
+  z-index: 1;
+}
+#image {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  z-index: 0;
+}
 
+#logo {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  margin-top: 10px;
+}
+.title {
+  font-size: 50px;
+  height: 60px;
+  margin: 0 auto;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.sub-title {
+  margin-top: 0;
+  font-size: 20px;
+  color: #888585;
+  font-weight: bold;
+}
+.innings {
+  height: 25px;
+  width: 75%;
+  font-size: 12px;
+  background-color: orangered;
+  color: white;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+table {
+  width: 75%;
+  height: 300px;
+  background-color: white;
+  border-collapse: collapse;
+}
+table th {
+  background-color: #f9f3f3;
+  font-size: 12px;
+  padding: 5px;
+}
+
+th,
+td {
+  border-bottom: 2px solid #ecebeb;
+}
+td {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+.batted {
+  color: #b4aeae;
+  font-weight: lighter;
+}
+.td-left {
+  text-align: left;
+  padding-left: 10px;
+}
+a {
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(44, 173, 224);
+}
+a img {
+  display: none;
+}
+a:hover img {
+  display: block;
+  position: absolute;
+  top: 0;
+}
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+.footer {
+  position: relative;
+  top: 30px;
+  margin-left: 13%;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+}
+footer > img {
+  margin: 0 5px;
 }
